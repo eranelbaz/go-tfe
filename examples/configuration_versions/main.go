@@ -8,8 +8,8 @@ import (
 	"context"
 	"log"
 
+	tfe "github.com/eranelbaz/go-tfe"
 	"github.com/hashicorp/go-slug"
-	tfe "github.com/hashicorp/go-tfe"
 )
 
 func main() {

@@ -9,8 +9,8 @@ import (
 	io "io"
 	reflect "reflect"
 
+	tfe "github.com/eranelbaz/go-tfe"
 	gomock "github.com/golang/mock/gomock"
-	tfe "github.com/hashicorp/go-tfe"
 )
 
 // MockPolicyChecks is a mock of PolicyChecks interface.

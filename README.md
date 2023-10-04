@@ -1,11 +1,11 @@
 Terraform Cloud/Enterprise Go Client
 ==============================
 
-[![Tests](https://github.com/hashicorp/go-tfe/actions/workflows/ci.yml/badge.svg)](https://github.com/hashicorp/go-tfe/actions/workflows/ci.yml)
-[![GitHub license](https://img.shields.io/github/license/hashicorp/go-tfe.svg)](https://github.com/hashicorp/go-tfe/blob/main/LICENSE)
-[![GoDoc](https://godoc.org/github.com/hashicorp/go-tfe?status.svg)](https://godoc.org/github.com/hashicorp/go-tfe)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hashicorp/go-tfe)](https://goreportcard.com/report/github.com/hashicorp/go-tfe)
-[![GitHub issues](https://img.shields.io/github/issues/hashicorp/go-tfe.svg)](https://github.com/hashicorp/go-tfe/issues)
+[![Tests](https://github.com/eranelbaz/go-tfe/actions/workflows/ci.yml/badge.svg)](https://github.com/eranelbaz/go-tfe/actions/workflows/ci.yml)
+[![GitHub license](https://img.shields.io/github/license/hashicorp/go-tfe.svg)](https://github.com/eranelbaz/go-tfe/blob/main/LICENSE)
+[![GoDoc](https://godoc.org/github.com/eranelbaz/go-tfe?status.svg)](https://godoc.org/github.com/eranelbaz/go-tfe)
+[![Go Report Card](https://goreportcard.com/badge/github.com/eranelbaz/go-tfe)](https://goreportcard.com/report/github.com/eranelbaz/go-tfe)
+[![GitHub issues](https://img.shields.io/github/issues/hashicorp/go-tfe.svg)](https://github.com/eranelbaz/go-tfe/issues)
 
 The official Go API client for [Terraform Cloud/Enterprise](https://www.hashicorp.com/products/terraform).
 
@@ -33,7 +33,7 @@ import (
   "context"
   "log"
 
-  "github.com/hashicorp/go-tfe"
+  "github.com/eranelbaz/go-tfe"
 )
 
 config := &tfe.Config{
@@ -69,7 +69,7 @@ import (
   "context"
   "log"
 
-  "github.com/hashicorp/go-tfe"
+  "github.com/eranelbaz/go-tfe"
 )
 
 // Passing nil to tfe.NewClient method will also use the default configuration
@@ -90,7 +90,7 @@ import (
   "context"
   "log"
 
-  "github.com/hashicorp/go-tfe"
+  "github.com/eranelbaz/go-tfe"
 )
 
 config := &tfe.Config{
@@ -111,7 +111,7 @@ if err != nil {
 
 ## Documentation
 
-For complete usage of the API client, see the [full package docs](https://pkg.go.dev/github.com/hashicorp/go-tfe).
+For complete usage of the API client, see the [full package docs](https://pkg.go.dev/github.com/eranelbaz/go-tfe).
 
 ## API Coverage
 
@@ -185,7 +185,7 @@ This API client covers most of the existing Terraform Cloud API calls and is upd
 
 ## Examples
 
-See the [examples directory](https://github.com/hashicorp/go-tfe/tree/main/examples).
+See the [examples directory](https://github.com/eranelbaz/go-tfe/tree/main/examples).
 
 ## Running tests
 

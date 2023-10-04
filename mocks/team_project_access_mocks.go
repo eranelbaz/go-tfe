@@ -8,8 +8,8 @@ import (
 	context "context"
 	reflect "reflect"
 
+	tfe "github.com/eranelbaz/go-tfe"
 	gomock "github.com/golang/mock/gomock"
-	tfe "github.com/hashicorp/go-tfe"
 )
 
 // MockTeamProjectAccesses is a mock of TeamProjectAccesses interface.

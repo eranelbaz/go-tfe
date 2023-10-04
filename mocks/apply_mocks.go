@@ -9,8 +9,8 @@ import (
 	io "io"
 	reflect "reflect"
 
+	tfe "github.com/eranelbaz/go-tfe"
 	gomock "github.com/golang/mock/gomock"
-	tfe "github.com/hashicorp/go-tfe"
 )
 
 // MockApplies is a mock of Applies interface.
