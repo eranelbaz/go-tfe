@@ -1,4 +1,4 @@
-module github.com/hashicorp/go-tfe
+module github.com/eranelbaz/go-tfe
 
 go 1.19
 
