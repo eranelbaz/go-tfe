@@ -211,6 +211,7 @@ func (c *Client) doForeignPUTRequest(ctx context.Context, foreignURL string, dat
 	reqHeaders := make(http.Header)
 	reqHeaders.Set("Accept", "application/json, */*")
 	reqHeaders.Set("Content-Type", "application/octet-stream")
+	reqHeaders.Set("Authorization", "Bearer "+c.token)
 
 	req, err := retryablehttp.NewRequest("PUT", u.String(), data)
 	if err != nil {
